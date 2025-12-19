@@ -5,7 +5,8 @@ def play_game():
     game_over = False
     turn = 0
 
-    print("=== CONNECT 4 ===")
+    print()
+    print("     === CONNECT 4 ===")
     board.print_board()
 
     while not game_over:
@@ -23,5 +24,5 @@ def play_game():
         else:
             print("Column full! Choose another.")
 
-if __name__ == "__main__":
-    play_game()
+
+play_game()

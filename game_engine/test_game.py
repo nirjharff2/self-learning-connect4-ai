@@ -5,7 +5,7 @@ def test_vertical_win():
     for i in range(4):
         b.drop_piece(5-i, 0, 1)
     assert b.winning_move(1)
-    print("✅ Vertical win test passed")
+    print("Vertical win test passed")
 
 def test_horizontal_win():
     b = Board()

@@ -20,7 +20,13 @@ class Board:
         return None
 
     def print_board(self):
-        print(self.board, 0)
+        print()
+        for row in self.board:
+            print('     ',end=' ')
+            for x in row:
+                print(x,end=' ')
+            print()
+        print()
 
     def winning_move(self, piece):
         # horizontal
